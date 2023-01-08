@@ -62,3 +62,6 @@ r3kb2/pp3p2/2pp4/2n3p1/3P2R1/1PPB1P1r/P2Q1p1p/RN3K2 w q - 1 28
 r3kb2/pp3p2/2pp2B1/2n3p1/3P2R1/1PP2P1r/P2Q1p1p/RN3K2 b q - 2 28
 r3kb2/pp3p2/2pp2B1/6p1/3P2R1/1nP2P1r/P2Q1p1p/RN3K2 w q - 0 29
 r3kb2/pp3p2/2pp2B1/6p1/3P2R1/1nP2P1r/P3Qp1p/RN3K2 b q - 1 29
+rnbqkbnr/pppppppp/8/8/8/N7/PPPPPPPP/R1BQKBNR b KQkq - 1 1
+r1bqkbnr/pppppppp/2n5/8/8/N7/PPPPPPPP/R1BQKBNR w KQkq - 2 2
+r1bqkbnr/pppppppp/2n5/8/5P2/N7/PPPPP1PP/R1BQKBNR b KQkq - 0 2

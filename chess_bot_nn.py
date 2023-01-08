@@ -11,6 +11,8 @@ import numpy as np
 import tensorflow as tf
 
 # define the neural network model
+# create a chess board
+board = chess.Board()
 model = tf.keras.Sequential([
     tf.keras.layers.Input(shape=(8, 8, 6)),
     tf.keras.layers.Conv2D(64, 3, activation='relu'),
@@ -23,8 +25,7 @@ model = tf.keras.Sequential([
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
 def game_bot():
-  # create a chess board
-  board = chess.Board()
+  
 
   # start the game loop
   while not board.is_game_over():
@@ -56,7 +57,7 @@ def game_bot():
 
     # save the current game state and result to a file
     result = 1 if board.result() == "1-0" else 0
-    with open("games_history.txt", "a") as f:
+    with open("games_history_1.txt", "a") as f:
       f.write(f"{board.fen()},{result}\n")
 
 game_bot()
